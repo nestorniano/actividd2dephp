@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(208, 176, 238);
+    padding: 0%;
+    margin: 0%;
+}
+
+#menu li a .activo{
+   background-color: rgb(255, 253, 255);
+   color: darkseagreen;
+    
+}
+#contenedor{
+    width: 1000px;
+    margin: 10px auto;
+    font-size: 1em;
+    
+}
+
+
+
+
+header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:rgb(95, 18, 167)
+}
+
+#menu{
+    padding: 0%;
+   margin: 0%;
+}
+
+
+#menu li{
+    display: inline;
+    
+}
+#menu li a{
+    text-decoration: none;
+    float: right;    
+    padding: 5px;
+    background-color: rgb(110, 163, 231);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(23, 54, 95) ;
+    width: 318px;
+    border-radius: 5px;
+    
+}
+
+#menu li a:hover {
+    background-color: #2586d7;
+    
+}
+
+aside{
+    float: left;
+    padding-top: 10px;
+clear: both;
+
+}
+
+aside #sobrep{
+    width: 480px;
+    height: 400px;
+    border-radius: 10%; 
+}
+
+#contenido1 #sobrea{
+    width: 480px;
+    padding-top: 10px;
+    height: 400px;
+    padding-left: 20px;
+    border-radius: 10%;     
+}
+
+footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(95, 18, 167);
+}
+footer{
+    margin: 5px;
+    text-align: center;
+    clear: both;
+    background-color: rgb(119, 122, 255);
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+
+}
+
+@media screen and (max-width: 700px){
+   
+    #contenedor{
+         width:98%;
+    } 
+
+
+    
+
+
+    
+   
+
+}
+/*------------------------------------*/
+    /*media de 510*/
+    @media screen and (max-width: 510px){
+
+        aside #sobrep {
+            width: 100%;
+            
+           
+        }
+        #contenido1 #sobrea{
+            padding-left: 0px;
+            width:100%;
+            
+    
+        } 
+        #menu li a{
+           width: 100%;
+           padding-left: 5px;
+        }
+
+    } 
+   
+        
+
+
+
+
+
+/*Para usar 980px o menos
+@media screen and (max-width: 980px){
+    .container{
+        width: 98%;
+    }
+    section{
+        width: 68%;
+    }
+}*/
+
+/*#contenido2 #sobrep{
+padding-top:  10px;
+    width: 670px;
+    height: 430px;
+    float: left;
+}
+
+#contenido1 #sobrea{
+    padding-top:  10px;
+    width: 660px;
+    height: 430px;
+    float: right;
+}*/
+
+
